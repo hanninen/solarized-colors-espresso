@@ -1,0 +1,157 @@
+/*
+    @theme Solarized-dark
+    @override-placeholders html, css, js, php, python
+*/
+
+@base {
+    color: #839496;
+    background-color: #002b36;
+    insertion-point-color: #dc322f;
+    selection-background-color: #dc322f;
+}
+
+* {
+    spell-check: disabled;
+}
+
+/* Standard
+----------------------------------------------------*/
+literal.string {
+	color: #2aa198;
+	spell-check: enabled;
+}
+
+* > string.modifier {
+	color: #66D9EF;
+	font-style: italic;
+}
+
+literal.regex {
+    color: #d33682;
+}
+
+literal.numeric {
+    color: #2aa198;
+}
+
+literal.keyword.constant {
+	color: #F92672;
+}
+
+literal.keyword.bool {
+    color: #859900;
+}
+
+literal.keyword.nothing {
+    color: #859900;
+}
+
+literal.escape {
+    color: #dc322f;
+}
+
+identifier.function > name {
+    color: #268bd2;
+}
+
+identifier.type {
+    color: #93a1a1;
+    font-weight: bold;
+}
+
+identifier.variable.parameter {
+	color: #839496;
+}
+
+identifier.variable.named-parameter {
+	color: #859900;
+}
+
+identifier.variable.named-parameter > name {
+	font-style: italic;;
+}
+
+identifier.variable.instance {
+    color: #839496;
+}
+
+keyword.control {
+    color: #859900;
+}
+
+keyword.definition {
+    color: #859900;
+    font-style: italic;
+}
+
+keyword.modifier {
+    color: #859900;
+}
+
+keyword.constant.other {
+	color: #d33682;
+}
+
+metadata {
+    color: #586e75;
+}
+
+metadata.comment.documentation {
+	color: #2aa198;
+	spell-check: enabled;
+}
+
+operator {
+    color: #839496;
+}
+
+/* For non-standards */
+
+/* @group CSS */
+
+selector.css {
+	color: #859900;
+}
+
+delimeter.css {
+    color: #268bd2;
+}
+
+property-name {
+	color: #b58900;
+}
+
+zkeyword.other.zunit.css {
+	color: #2aa198;
+}
+
+zconstant.zother.color.rgb-value.css {
+	color: #2aa198;
+}
+
+zconstant.nzumeric.css {
+	color: #2aa198;
+}
+/* @end */
+
+/* @group Python */
+
+python container name, python function name {
+	color: #268bd2;
+}
+
+python container parameters name {
+	color: #839496;
+}
+
+python variable type {
+	color: #839496;
+}
+
+python keyword.control.import {
+    color: #cb4b16;
+}
+
+}
+/* @end */
+
