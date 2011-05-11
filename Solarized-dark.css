@@ -155,3 +155,105 @@ python keyword.control.import {
 }
 /* @end */
 
+/* @group HTML */
+
+tag > name {
+	color: #268bd2;
+	font-weight: bold;
+}
+
+tag > attribute-name {
+	color: #839496;
+}
+
+tag > attribute-value.string.quoted, tag > attribute-value.string.quoted punctuation.definition {
+	color: #2aa198;
+}
+
+punctuation.definition {
+    color: #839496;
+}
+
+tag.preprocessor.xml.html, tag.preprocessor.xml.html entity.name {
+    color: #839496;
+    font-style: italic;
+}
+
+tag.preprocessor.xml.html punctuation.definition {
+    color: #839496;
+    font-style: normal;
+}
+
+
+comment.block.html, comment.block.html punctuation.definition {
+    color: #839496;
+}
+
+comment.block.html invalid.illegal.bad-comments-or-CDATA.html {
+    color: #dc322f;
+}
+
+tag.doctype, tag.doctype entity.name {
+    color: #839496;
+    font-weight: normal;
+    font-style: italic;
+}
+
+tag.doctype punctuation.definition {
+    color: #839496;
+    font-style: normal;
+}
+
+tag.self-closing.cdata {
+    color: #839496;
+}
+
+embedded-style.html entity.name, embedded-javascript.html entity.name {
+    font-style: italic;
+    font-weight: normal;
+}
+
+constant.character.entity.html {
+    color: #859900;
+}
+
+invalid.illegal.bad-ampersand.html {
+    color: #dc322f;
+}
+/* @end */
+
+/* @group JavaScript */
+
+support {
+    color: #b58900;
+}
+
+constant.language.js, constant.language.null.js, constant.language.boolean.true.js, constant.language.boolean.false.js {
+    color: #b58900;
+}
+
+keyword.control.js, keyword.operator.js {
+    color: #859900;
+}
+
+meta.brace.curly, meta.brace.square.js {
+    color: #268bd2;
+}
+
+string.regexp.js, string.regexp.js punctuation.definition{
+    color: #2aa198;
+}
+
+string.regexp.js constant.character.escape.js {
+    color: #6c71c4;
+}
+
+variable.language.js {
+    color: #268bd2;
+}
+
+storage.type.js {
+    color: #268bd2;
+}
+
+/* @end */
