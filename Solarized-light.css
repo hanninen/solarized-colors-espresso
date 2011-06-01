@@ -1,13 +1,11 @@
 /*
-    @theme Solarized-dark
+    @theme Solarized-light
     @override-placeholders html, css, js, php, python
 */
 
 @base {
     color: #657b83;
     background-color: #fdf6e3;
-    insertion-point-color: #dc322f;
-    selection-background-color: #dc322f;
 }
 
 * {
